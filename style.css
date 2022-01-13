@@ -4,11 +4,16 @@ h1 {
 }
 
 h5 {
-    color: rgb(0, 89, 255);
+    color: rgb(43 84 225);
     font-size: 100px;
 }
 
 html {
-    background: url(https://thumbs.gfycat.com/AthleticSimpleHuemul-size_restricted.gif);
+    background: url(./AthleticSimpleHuemul-size_restricted.gif);
     background-size: cover;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
 }
