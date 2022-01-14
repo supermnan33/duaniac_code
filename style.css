@@ -31,6 +31,7 @@ html {
 }
 
 #c {
+    margin-top: 5vh;
     position: absolute;
     top: 0;
     z-index: -1;
