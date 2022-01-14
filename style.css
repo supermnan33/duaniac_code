@@ -5,11 +5,17 @@ body {
     align-items: center;
 }
 
+a {
+    height: 5vh;
+    font-size: 40px;
+    text-decoration: none;
+}
+
 h1 {
     color: rgb(192, 251, 255);
     font-size: 100px;
     margin: 0;
-    height: 25vh;
+    height: 20vh;
 }
 
 h5 {
@@ -27,4 +33,5 @@ html {
 #c {
     position: absolute;
     top: 0;
+    z-index: -1;
 }
