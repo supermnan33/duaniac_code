@@ -5,8 +5,11 @@ body {
     align-items: center;
 }
 
-a {
+nav {
     height: 5vh;
+}
+
+a {
     font-size: 40px;
     text-decoration: none;
 }
