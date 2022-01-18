@@ -75,3 +75,13 @@
     background: #ffffff;
     color: #2a2b2f;
   }
+  /*
+changing body bg color will give a different color effect
+*/
+
+body {
+  background: #e9f0c9;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
