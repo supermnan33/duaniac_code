@@ -7,6 +7,8 @@
 <body>
 
 
+    <div class="time"></div>
+  
     <div class="clock">
       <div class="clock-face">
         <div class="hand hour-hand"></div>
@@ -17,8 +19,10 @@
 
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
     html {
-      background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+      background: #018DED url(https://unsplash.it/1500/1000?image=1022&blur=5);
       background-size: cover;
       font-family: 'helvetica neue';
       text-align: center;
@@ -32,6 +36,7 @@
       flex: 1;
       min-height: 100vh;
       align-items: center;
+      flex-direction: column;
     }
 
     .clock {
@@ -64,12 +69,18 @@
       top: 50%;
       transform-origin: 100%;
       transform: rotate(90deg);
-      transition: all 0.5s;
+      /* commenting for now, causes screen jank when rolling to next minute */
+      /* transition: all 0.5s; */
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
 
-    /* ease fn - way more fun that ease-in-out */
-    /* transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); */
+    .time {
+      font-family: 'Orbitron', sans-serif;
+      margin: 50px auto 0;
+      width: 30rem;
+      color: white;
+      font-size: 64px;
+    }
 
   </style>
 
