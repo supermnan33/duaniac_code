@@ -30,6 +30,10 @@ html {
     background-size: cover;
 }
 
+nav {
+    display: flex;
+}
+
 #c {
     margin-top: 5vh;
     position: absolute;
